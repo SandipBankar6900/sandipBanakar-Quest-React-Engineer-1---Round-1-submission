@@ -18,7 +18,7 @@ Colorful Task Indicators: Each task is assigned a random color indicator for vis
 
 ![Add Card](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(78).png)
 
-![display-content](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(79).png)
+![display-content](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(82).png)
 
 ![responsive](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(81).png)
 
