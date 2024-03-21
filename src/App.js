@@ -155,8 +155,8 @@ function App() {
                   onDragStart={(e) => handleDragStart(e, task.id, 'toDo')}
                   className="task">
                   <div className="task-content">
-                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '60' }} />
-                    <p>{task.title}</p>
+                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '30' }} />
+                    <h4>{task.title}</h4>
                     {showDeleteIcons.toDo[task.id] && (
                       <FaTrash className="icon" onClick={() => handleDeleteTask(task.id, 'toDo')} />
                     )}
@@ -210,7 +210,7 @@ function App() {
                   onDragStart={(e) => handleDragStart(e,task.id, 'inProgress')}
                   className="task">
                   <div className="task-content">
-                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '60px' }} />
+                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '30px' }} />
                     <h4>{task.title}</h4>
                     {showDeleteIcons.inProgress[task.id] && (
                       <FaTrash className="icon" onClick={() => handleDeleteTask(task.id, 'inProgress')} />
@@ -260,7 +260,7 @@ function App() {
                   onDragStart={(e) => handleDragStart(e, task.id, 'review')}
                   className="task">
                   <div className="task-content">
-                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '60px' }} />
+                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '30px' }} />
                     <h4>{task.title}</h4>
                     {showDeleteIcons.review[task.id] && (
                       <FaTrash className="icon" onClick={() => handleDeleteTask(task.id, 'review')} />
@@ -310,7 +310,7 @@ function App() {
                   onDragStart={(e) => handleDragStart(e, task.id, 'done')}
                   className="task">
                   <div className="task-content">
-                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '60px' }} />
+                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '30px' }} />
                     <h4>{task.title}</h4>
                     {showDeleteIcons.done[task.id] && (
                       <FaTrash className="icon" onClick={() => handleDeleteTask(task.id, 'done')} />

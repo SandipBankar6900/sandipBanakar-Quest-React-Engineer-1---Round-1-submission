@@ -46,10 +46,10 @@
 .task {
   background-color: #fff;
   border: 1px solid #eaeaea;
-  border-radius: 8px;
-  padding: 10px 15px;
+  border-radius: 10px;
+  padding: 5px 10px;
   margin-bottom: 10px;
-  /* margin: 10px; */
+  /* margin: auto; */
   /* height: 60px; */
 
 }
@@ -57,12 +57,21 @@
 .task-content {
   text-align: left;
  
-
+/* height: 40px; */
+/* margin: auto; */
   /* border: 1px solid red; */
+}
+
+.task-content h4{
+margin: auto;
+margin-bottom: 5px;
+  /* border: 1px solid red; */
+
 }
 
 .align-left-icon {
   text-align: left;
+  /* margin-top: 15px; */
 }
 
 .icon {
