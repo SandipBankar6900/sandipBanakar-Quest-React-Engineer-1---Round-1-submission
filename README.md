@@ -13,9 +13,9 @@ Colorful Task Indicators: Each task is assigned a random color indicator for vis
 
 # Usage
 1.Run the application locally.
-# npm start
+ npm start
   or
-# yarn start
+ yarn start
 
 2.Open your browser and go to http://localhost:3000 to view the application.
 
