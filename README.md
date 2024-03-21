@@ -12,6 +12,16 @@ Task Management: Users can add tasks to each stage, delete tasks, and drag tasks
 Dynamic Display: Icons for adding tasks, deleting tasks, and additional actions are displayed dynamically based on user interaction.
 Colorful Task Indicators: Each task is assigned a random color indicator for visual appeal.
 
+# ScreenShots
+
+![Home](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(77).png)
+
+![Add Card](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(78).png)
+
+![display-content](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(79).png)
+
+![responsive](https://github.com/SandipBankar6900/sandipBanakar-Quest-React-Engineer-1---Round-1-submission/blob/main/images/Screenshot%20(81).png)
+
 # Usage
 1.Run the application locally.
 
