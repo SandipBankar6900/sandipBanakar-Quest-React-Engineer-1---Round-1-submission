@@ -1,0 +1,121 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(49, 121, 186);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Styling for the container holding cards */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Styling for each card */
+.card {
+  background-color: #f1f2f4;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 320px;
+}
+
+.card h2{
+  text-align: left;
+}
+
+.title-div{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.title-div p{
+  margin-top: 25px;
+}
+
+
+.task-list {
+  margin-top: 10px;
+}
+
+
+/* Styling for each task */
+.task {
+
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  
+  
+}
+
+.task-content {
+
+  
+  text-align: left;
+}
+
+.align-left-icon {
+
+  text-align: left;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+/* Styling for add task section */
+
+.add-task {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-right: 210px;
+ 
+}
+.add-task1 {
+  
+  align-items: center;
+  margin-top: 20px;
+  /* margin-right: 210px; */
+ 
+}
+
+.add-task p{
+  margin-left: 10px;
+}
+
+/* Styling for input field in add task section */
+
+.add-task1 input[type="text"] {
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+
+/* Styling for button in add task section */
+.add-task1 button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.add-task1 button:hover {
+  background-color: #0056b3;
+}
+
