@@ -4,6 +4,7 @@
 This repository contains a Task Board Application built using React. The application allows users to manage tasks across different stages, including "To Do", "In Progress", "Review", and "Done". Users can add, delete, and drag tasks between these stages to reflect their progress.
 
 # Deployed Link
+Check out the deployed version of project [Here](https://task-board-app-jet.vercel.app/)
 
 
 # Features
