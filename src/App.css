@@ -38,6 +38,9 @@
 
 .task-list {
   margin-top: 10px;
+  /* border: 1px solid red; */
+  
+  
 }
 
 .task {
@@ -46,10 +49,16 @@
   border-radius: 8px;
   padding: 10px 15px;
   margin-bottom: 10px;
+  /* margin: 10px; */
+  /* height: 60px; */
+
 }
 
 .task-content {
   text-align: left;
+ 
+
+  /* border: 1px solid red; */
 }
 
 .align-left-icon {
@@ -134,3 +143,5 @@
     justify-content: center;
   }
 }
+
+

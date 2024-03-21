@@ -155,8 +155,8 @@ function App() {
                   onDragStart={(e) => handleDragStart(e, task.id, 'toDo')}
                   className="task">
                   <div className="task-content">
-                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '60px' }} />
-                    <h4>{task.title}</h4>
+                  <CgLoadbar style={{ color: getRandomColor(), fontSize: '60' }} />
+                    <p>{task.title}</p>
                     {showDeleteIcons.toDo[task.id] && (
                       <FaTrash className="icon" onClick={() => handleDeleteTask(task.id, 'toDo')} />
                     )}
